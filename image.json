@@ -1,0 +1,76 @@
+{
+    "bearing": 0,
+    "sprite": "http://zhsq.digitalcq.com/d2cpro/oms/static/sprites/label_1514359437",
+    "layers": [
+        {
+            "source": "remote-scense-layer",
+            "id": "img_hq_gjtdt_remote-scense-layer",
+            "type": "raster",
+            "paint": {},
+            "layout": {
+                "visibility": "visible"
+            }
+        },
+        {
+            "source": "remote-scense-layer-symbol",
+            "id": "img_hq_gjtdt_remote-scense-layer-symbol",
+            "type": "raster",
+            "paint": {},
+            "layout": {
+                "visibility": "visible"
+            }
+        },
+        {
+            "source": "remote-scense-layer-cq",
+            "id": "img_hq_remote-scense-layer-cq",
+            "type": "raster",
+            "paint": {},
+            "layout": {
+                "visibility": "visible"
+            }
+        }
+    ],
+    "id": "10926",
+    "version": 8,
+    "sources": {
+        "remote-scense-layer": {
+            "type": "raster",
+            "tiles": [
+                "http://t0.tianditu.com/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=562b763a349c0198931a938949108363"
+            ],
+            "tileSize": 256
+        },
+        "remote-scense-layer-symbol": {
+            "type": "raster",
+            "tiles": [
+                "http://t0.tianditu.com/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=562b763a349c0198931a938949108363"
+            ],
+            "tileSize": 256
+        },
+        "remote-scense-layer-cq": {
+            "type": "raster",
+            "tiles": [
+                "http://192.168.11.160:6080/arcgis/rest/services/nongchang/MapServer/tile/{z}/{y}/{x}"
+            ],
+            "tileSize": 256
+        }
+    },
+    "owner": "jing-sam",
+    "center": [
+        108.059095,
+        21.627605
+    ],
+    "draft": true,
+    "glyphs": "http://zhsq.digitalcq.com/d2cpro/oms/static/fonts/font_1514359479/{fontstack}/{range}.pbf",
+    "metadata": {
+        "mapbox:groups": {
+            "a67b4ba151f3ba82d59c88bad54f3f61": {
+                "name": "xzzd",
+                "collapsed": false
+            }
+        }
+    },
+    "pitch": 0,
+    "name": "ZHSQDT_IMAGE",
+    "zoom": 15.23375140554
+}
